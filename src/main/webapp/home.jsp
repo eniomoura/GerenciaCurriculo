@@ -1,16 +1,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>GerÃªncia de Curriculos</title>
+        <title>Gerência de Curriculos</title>
     </head>
     <body align=center>
-        <h1>GerÃªncia de Curriculos - Painel </h1>
+        <h1>Gerência de Curriculos</h1>
         <hr>
-        <h2>LOGIN<h2>
+        <h2>PAINEL DE CONTROLE<h2>
         <form action="">
-            <p>Nome: <input type="text"></input></p>
-            <p>Senha: <input type="password"></input></p>
-            <button>Entrar</button>
+            <p><button name="op" value="criar">Cadastrar Currículo</button></p>
+            <p><button name="op" value="editar">Editar Currículo</button></p>
+            <p><button name="op" value="voltar">Voltar</button></p>
         </form>
     </body>
 </html>
