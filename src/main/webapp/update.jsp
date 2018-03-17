@@ -21,26 +21,26 @@
 		<p> Data de Nascimento </p>
 		<p><input type= "text" name = "nascimento" value = <%= request.getParameter("nascimento") %>></input></p>
 		
-		<p> EndereÃ§o </p>
-		<p><input type= "text" name = "endereÃ§o" value = <%= request.getParameter("endereco") %>></input></p>
+		<p> Endereço </p>
+		<p><input type= "text" name = "endereco" value = <%= request.getParameter("endereco") %>></input></p>
 		
-		<p> Ãrea Desejada </p>	
+		<p> Área Desejada </p>	
 		<p><input type= "text" name = "area" value = <%= request.getParameter("area") %>></input></p>
 		
-		<p> Idiomas e NÃ­vel </p>
+		<p> Idiomas e Nível </p>
 		<p><input type= "text" name = "idiomas" value = <%= request.getParameter("idiomas") %>></input></p>
 		
-		<p> Conhecimentos TÃ©cnicos e NÃ­vel </p>
+		<p> Conhecimentos Técnicos e Ní­vel </p>
 		<p><input type= "text" name = "conhecimentos" value = <%= request.getParameter("conhecimentos") %>></input></p>
 		
-		<p> FormaÃ§Ã£o </p>
-		<p><input type= "text" name = "formaÃ§ao" value = <%= request.getParameter("formacao") %>></input></p>
+		<p> Formação </p>
+		<p><input type= "text" name = "formacao" value = <%= request.getParameter("formacao") %>></input></p>
 		
-		<p> ExperiÃªncia </p>
+		<p> Experiência </p>
 		<p><input type= "text" name = "experiencia" value = <%= request.getParameter("experiencia") %>></input></p>
 		
-		<p> RemuneraÃ§Ã£o Desejada </p>
-		<p><input type= "text" name = "remuneraÃ§ao" value = <%= request.getParameter("remuneracao") %>></input></p>
+		<p> Remuneração Desejada </p>
+		<p><input type= "text" name = "remuneracao" value = <%= request.getParameter("remuneracao") %>></input></p>
 		
 	</form>
 <input type="submit" value ="atualizar"></input>

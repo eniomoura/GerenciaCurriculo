@@ -24,7 +24,7 @@ public class UpdateController extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try {
-			Curriculo curriculo=CurriculoDAO.consultarNome("ENIO ROCHA MOURA");
+			Curriculo curriculo=CurriculoDAO.consultarNome("ENIO");
 			String op=valor(req, "op", "");
 			req.setAttribute("nome", curriculo.nome);
 			req.setAttribute("email", curriculo.email);

@@ -1,10 +1,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Gerência de Currículos</title>
+        <title>Gerenciamento de Curriculos</title>
     </head>
     <body style="text-align: center">
-        <h1 style="background-color:#64B1F8;">Gerência de Currículos</h1>
+        <h1 style="background-color:#64B1F8;">Gerenciamento de Curriculos</h1>
         <hr>
         <h2>CADASTRO<h2>
         <form>
