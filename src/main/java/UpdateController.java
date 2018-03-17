@@ -24,9 +24,22 @@ public class UpdateController extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try {
+			Curriculo curriculo=CurriculoDAO.consultarNome("ENIO ROCHA MOURA");
 			String op=valor(req, "op", "");
-			HttpSession session = req.getSession();
-            if(op=="") {
+			req.setAttribute("nome", curriculo.nome);
+			req.setAttribute("email", curriculo.email);
+			req.setAttribute("telefone", curriculo.telefone);
+			req.setAttribute("nascimento", curriculo.nascimento);
+			req.setAttribute("endereco", curriculo.endereco);
+			req.setAttribute("area", curriculo.area);
+			req.setAttribute("idiomas", curriculo.idiomas);
+			req.setAttribute("conhecimentos", curriculo.conhecimentos);
+			req.setAttribute("formacao", curriculo.formacao);
+			req.setAttribute("experiencia", curriculo.experiencia);
+			req.setAttribute("remuneracao", curriculo.remuneracao);
+
+			if(op=="") {
+            	
             }else if(op.equals("entrar")){
                 resp.sendRedirect("home");
 			}else{

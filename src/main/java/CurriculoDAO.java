@@ -43,8 +43,11 @@ public class CurriculoDAO {
 		pstmt.setString(9, formacao);
 		pstmt.setString(10, experiencia);
 		pstmt.setString(11, remuneracao);
+		pstmt.executeUpdate();
 		pstmt.close();
+		
 		conn.close();
+		System.out.println(nome);
 	}
 
 	public static void alterar(String nome, String email, String telefone, String nascimento, String endereco, String area,
@@ -66,6 +69,7 @@ public class CurriculoDAO {
 		pstmt.executeUpdate();
 		pstmt.close();
 		conn.close();
+		System.out.println(nome);
 	}
 
 	public static void excluir(int email) throws SQLException {

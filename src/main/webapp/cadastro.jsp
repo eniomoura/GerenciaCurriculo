@@ -1,10 +1,10 @@
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Ger�ncia de Curriculos</title>
+        <meta charset="UTF-8">
+        <title>Gerência de Currículos</title>
     </head>
-    <body align=center>
-        <h1>Ger�ncia de Curriculos</h1>
+    <body style="text-align: center">
+        <h1 style="background-color:#64B1F8;">Gerência de Currículos</h1>
         <hr>
         <h2>CADASTRO<h2>
         <form>
@@ -15,3 +15,16 @@
         </form>
     </body>
 </html>
+<style>
+        body{
+            text-align: center;
+            background-color: lightgray;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+           
+            
+
+            
+        }
+        
+    </style>
