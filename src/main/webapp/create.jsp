@@ -31,7 +31,7 @@
 		<p> Remuneração Desejada </p>
 			<p><input type= "text" name = "remuneraçao" value = <%= request.getParameter("remuneraçao") %>></input></p>
 			
-<input type ="submit" value ="Adicionar"></input>
+<input type ="submit" name="op" value ="Adicionar"></input>
 <a href= "home">Cancelar</a>
 </form>
 </body>
